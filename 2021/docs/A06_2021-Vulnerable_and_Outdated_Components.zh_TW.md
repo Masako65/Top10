@@ -136,44 +136,31 @@ patched in April 2014.
 
 -   OWASP Application Security Verification Standard: V1 Architecture,
     design and threat modelling
--   OWASP 應用程式安全驗證標準：V1 架構、設計和威脅建模
 
 -   OWASP Dependency Check (for Java and .NET libraries)
--   OWASP 相依性套件檢查（針對 Java 和 .NET 程式庫） 
 
 -   OWASP Testing Guide - Map Application Architecture (OTG-INFO-010)
--   OWASP 測試指南 - 對應應用程式架構 (OTG-INFO-010)
 
 -   OWASP Virtual Patching Best Practices
--   OWASP 虛擬修復最佳實務
 
 -   The Unfortunate Reality of Insecure Libraries
--   現實中不適合的不安全程式庫
 
 -   MITRE Common Vulnerabilities and Exposures (CVE) search
--   MITRE 常見漏洞和暴露 (CVE) 搜尋引擎
--   
+
 -   National Vulnerability Database (NVD)
--   國家漏洞數據庫（NVD）
 
 -   Retire.js for detecting known vulnerable JavaScript libraries
--   Retire.js 用於檢測已知的易受攻擊的 JavaScript 程式庫
 
 -   Node Libraries Security Advisories
--   Node 程式庫安全建議
 
 -   [Ruby Libraries Security Advisory Database and Tools]()
--   Ruby 程式庫安全諮詢資料庫及工具
 
 -   https://safecode.org/publication/SAFECode_Software_Integrity_Controls0610.pdf
 
 ## 對應的 CWEs 清單(List of Mapped CWEs)
 
 CWE-937 OWASP Top 10 2013: Using Components with Known Vulnerabilities
-CWE-937 OWASP Top 10 2013：使用具有已知漏洞的組件
 
 CWE-1035 2017 Top 10 A9: Using Components with Known Vulnerabilities
-CWE-1035 2017 Top 10 A9：使用具有已知漏洞的組件
 
 CWE-1104 Use of Unmaintained Third Party Components
-CWE-1104 使用未維護的第三方組件
