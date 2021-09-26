@@ -9,7 +9,7 @@
 ## 弱點簡介
 
 2021年中的一個全新類別，著重於在設計與架構中的風險。來呼籲更多使用到威脅建模、安全設計模式與參考架構。
-著名的 CWE 包括下列 *CWE-209: 產生的錯誤信息的中包含敏感訊息*、*CWE-256: 未受保護的憑證儲存方式*、*CWE-501: 違反信任邊界* 與 *CWE-522: 不足夠的憑證保護*。
+著名的 CWE 包括下列 *CWE-209: Generation of Error Message Containing Sensitive Information*、*CWE-256: Unprotected Storage of Credentials*、*CWE-501: Trust Boundary Violation* 與 *CWE-522:  Insufficiently Protected Credentials*。
 
 
 ## 弱點描述 
