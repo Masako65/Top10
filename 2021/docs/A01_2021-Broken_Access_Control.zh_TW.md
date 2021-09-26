@@ -9,7 +9,7 @@
 
 ## 概述
 
-從第五名晋升至第一名，94% 的應用程式都對中斷的存取控制進行了某種形式的測試。著名的CWE包括 *CWE-200：將敏感資訊暴露給未經授權的行為者*，*CWE-201：通過發送資料* 和 *CWE-352曝露敏感資訊：跨站請求偽造*。
+從第五名晋升至第一名，94% 被測試的應用程式，都有驗測到某種類別的權限控制失效問題。著名的CWE包括 *CWE-200：Exposure of Sensitive Information to an Unauthorized Actor*，*CWE-201：Exposure of Sensitive Information Through Sent Data* 和 *CWE-352 Cross-Site Request Forgery (CSRF)*。
 
 ## 描述 
 
@@ -71,82 +71,53 @@ https://example.com/app/accountInfo?acct=notmyacct
 
 ## 參考
 
--   [OWASP主動控制：實施存取控制](https://owasp.org/www-project-proactive-controls/v3/en/c7-enforce-access-controls)
+-   [OWASP Proactive Controls: Enforce Access
+    Controls](https://owasp.org/www-project-proactive-controls/v3/en/c7-enforce-access-controls)
 
--   [OWASP 應用安全驗證標準：V4 存取控制](https://owasp.org/www-project-application-security-verification-standard)
+-   [OWASP Application Security Verification Standard: V4 Access
+    Control](https://owasp.org/www-project-application-security-verification-standard)
 
--   [OWASP 測試指南：授權測試](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/05-Authorization_Testing/README)
+-   [OWASP Testing Guide: Authorization
+    Testing](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/05-Authorization_Testing/README)
 
--   [OWASP 備忘單：存取控制]()
+-   [OWASP Cheat Sheet: Access Control]()
 
--   [PortSwigger：利用CORS的錯誤配置](https://portswigger.net/blog/exploiting-cors-misconfigurations-for-bitcoins-and-bounties)
+-   [PortSwigger: Exploiting CORS
+    misconfiguration](https://portswigger.net/blog/exploiting-cors-misconfigurations-for-bitcoins-and-bounties)
 
 ## 對應的CWE列表
 
-CWE-22 不當限制受限目錄的路徑名稱（路徑遍訪）
-
-CWE-23 相對路徑遍訪
-
-CWE-35 路徑遍訪: '.../...//'
-
-CWE-59 檔案存取前不當的路徑解析 ('連結指向')
-
-CWE-200 將敏感資訊曝露給未經授權的行為者
-
-CWE-201 經由發送的資料曝露敏感資訊
-
-CWE-219 在網站根目錄下存放敏感資料
-
-CWE-264 權限、特權和存取控制（不應再使用）
-
-CWE-275 權限問題
-
-CWE-276 不正確的預設權限
-
-CWE-284 不當的存取控制
-
-CWE-285 不當的授權
-
-CWE-352 跨站請求偽造 (CSRF)
-
-CWE-359 將私有的個人資訊曝露給未經授權的行為者
-
-CWE-377 不安全的暫存檔案
-
-CWE-402 私有資源輸入新領域（“資源洩漏”）
-
-CWE-425 直接請求（“強制瀏覽”）
-
-CWE-441 意外代理或中介（“困惑的代理”）
-
-CWE-497 將敏感系統資訊曝露給未經授權的控制領域
-
-CWE-538 將敏感資訊插入外部可存取的檔案或目錄
-
-CWE-540 原始程式中包含敏感資訊
-
-CWE-548 透過列示目錄而曝露資訊
-
-CWE-552 外部各方可存取的檔案或目錄
-
-CWE-566 通過用戶控制的 SQL 主鍵繞過授權
-
-CWE-601 URL重新導向至不受信任的站台（“開放而不受限的重新導向”）
-
-CWE-639 通過用戶控制的金鑰繞過授權
-
-CWE-651 曝露包含敏感資訊的WSDL檔案
-
-CWE-668 資源曝露於錯誤領域
-
-CWE-706 使用被不正確解析的名稱或參考
-
-CWE-862 缺少授權
-
-CWE-863 不正確的授權
-
-CWE-913 不當的動態管理的代碼資源控制
-
-CWE-922 不安全儲存的敏感資訊
-
-CWE-1275 具有不當SameSite屬性設定的敏感Cookie
+CWE-22 Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')
+CWE-23 Relative Path Traversal
+CWE-35 Path Traversal: '.../...//'
+CWE-59 Improper Link Resolution Before File Access ('Link Following')
+CWE-200 Exposure of Sensitive Information to an Unauthorized Actor
+CWE-201 Exposure of Sensitive Information Through Sent Data
+CWE-219 Storage of File with Sensitive Data Under Web Root
+CWE-264 Permissions, Privileges, and Access Controls (should no longer be used)
+CWE-275 Permission Issues
+CWE-276 Incorrect Default Permissions
+CWE-284 Improper Access Control
+CWE-285 Improper Authorization
+CWE-352 Cross-Site Request Forgery (CSRF)
+CWE-359 Exposure of Private Personal Information to an Unauthorized Actor
+CWE-377 Insecure Temporary File
+CWE-402 Transmission of Private Resources into a New Sphere ('Resource Leak')
+CWE-425 Direct Request ('Forced Browsing')
+CWE-441 Unintended Proxy or Intermediary ('Confused Deputy')
+CWE-497 Exposure of Sensitive System Information to an Unauthorized Control Sphere
+CWE-538 Insertion of Sensitive Information into Externally-Accessible File or Directory
+CWE-540 Inclusion of Sensitive Information in Source Code
+CWE-548 Exposure of Information Through Directory Listing
+CWE-552 Files or Directories Accessible to External Parties
+CWE-566 Authorization Bypass Through User-Controlled SQL Primary Key
+CWE-601 URL Redirection to Untrusted Site ('Open Redirect')
+CWE-639 Authorization Bypass Through User-Controlled Key
+CWE-651 Exposure of WSDL File Containing Sensitive Information
+CWE-668 Exposure of Resource to Wrong Sphere
+CWE-706 Use of Incorrectly-Resolved Name or Reference
+CWE-862 Missing Authorization
+CWE-863 Incorrect Authorization
+CWE-913 Improper Control of Dynamically-Managed Code Resources
+CWE-922 Insecure Storage of Sensitive Information
+CWE-1275 Sensitive Cookie with Improper SameSite Attribute
