@@ -17,7 +17,7 @@ Notable CWEs include *CWE-502: Deserialization of Untrusted Data*,
 *CWE-829: Inclusion of Functionality from Untrusted Control Sphere*, and
 *CWE-494: Download of Code Without Integrity Check*.
 
-這是2021年的新類型，著重在軟體更新，關鍵資料及持續性整合/部署(CI/CD)流程未經完整性驗證之假設。同時在CVE/CVSS資料加權後之最高影響之一。值得注意的CWE包含CWE-502：不受信任資料之反序列化，CWE-829：包含來自不受信任控制領域之功能及CWE-494：下載未經完整性驗證之程式碼。
+這是2021年的新類型，著重在軟體更新，關鍵資料及持續性整合/部署(CI/CD)流程未經完整性驗證之假設。同時在CVE/CVSS資料加權後之最高影響之一。值得注意的CWE包含CWE-502：Deserialization of Untrusted Data，CWE-829：Inclusion of Functionality from Untrusted Control Sphere 及CWE-494：Download of Code Without Integrity Check。
 
 ## Description 
 ## 弱點描述
@@ -126,42 +126,22 @@ most significant breaches of this nature in history.
 
 CWE-345 Insufficient Verification of Data Authenticity
 
-CWE-345 不足的資料真實性驗證
-
 CWE-353 Missing Support for Integrity Check
-
-CWE-353 缺乏對完整性確認之支援
 
 CWE-426 Untrusted Search Path
 
-CWE-426 不受信任的搜尋路徑
-
 CWE-494 Download of Code Without Integrity Check
-
-CWE-494 下載未經完整性驗證之程式碼
 
 CWE-502 Deserialization of Untrusted Data
 
-CWE-502 不受信任資料之反序列化
-
 CWE-565 Reliance on Cookies without Validation and Integrity Checking
-
-CWE-565 信任未經驗證及完整性確認的Cookies
 
 CWE-784 Reliance on Cookies without Validation and Integrity Checking in
 a Security Decision
 
-CWE-784 在安全性決策中信任未經驗證及完整性確認的Cookies
-
 CWE-829 Inclusion of Functionality from Untrusted Control Sphere
-
-CWE-829 包含來自不受信任控制領域之功能
 
 CWE-830 Inclusion of Web Functionality from an Untrusted Source
 
-CWE-830 包含來自不受信任控制來源之網頁功能
-
 CWE-915 Improperly Controlled Modification of Dynamically-Determined
 Object Attributes
-
-CWE-915 動態決定物件屬性於不當控制下之修改
