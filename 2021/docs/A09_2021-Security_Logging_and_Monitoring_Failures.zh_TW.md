@@ -23,7 +23,8 @@ Insufficient Logging* to include *CWE-117 Improper Output Neutralization
 for Logs*, *CWE-223 Omission of Security-relevant Information*, and
 *CWE-532* *Insertion of Sensitive Information into Log File*.
 
-安全記錄及監控是業界調查結果 (#3)，由2017年的第十名稍微上升。記錄及監控功能驗證非常有挑戰性，通常需要以訪談或詢問之方式檢驗有無偵測滲透測試的攻擊活動。偵測及應變對資安事件至關重要，但此類型之CVE/CVSS資料不多。儘管如此，此類型對於事件告警、可見性和鑑識仍然非常有影響力。此類型涵蓋CWE-778不足地記錄，CWE-117未經適當處理之日誌輸出，CWE-223遺漏安全相關資訊及CWE-532於日誌檔案置入敏感資訊。
+安全記錄及監控是業界調查結果 (#3)，由2017年的第十名稍微上升。記錄及監控功能驗證非常有挑戰性，通常需要以訪談或詢問之方式檢驗有無偵測滲透測試的攻擊活動。偵測及應變對資安事件至關重要，但此類型之CVE/CVSS資料不多。儘管如此，此類型對於事件告警、可見性和鑑識仍然非常有影響力。此類型涵蓋CWE-778 Insufficient Logging，CWE-117 Improper Output Neutralization
+for Logs，CWE-223 Omission of Security-relevant Information 及CWE-532 Insertion of Sensitive Information into Log File。
 
 ## Description 
 
@@ -180,16 +181,8 @@ result by the privacy regulator.
 
 CWE-117 Improper Output Neutralization for Logs
 
-CWE-117 未經適當處理之日誌輸出
-
 CWE-223 Omission of Security-relevant Information
-
-CWE-223 遺漏安全相關資訊
 
 CWE-532 Insertion of Sensitive Information into Log File
 
-CWE-532 於日誌檔案置入敏感資訊
-
 CWE-778 Insufficient Logging
-
-CWE-778 不足地記錄
