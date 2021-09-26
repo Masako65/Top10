@@ -8,7 +8,7 @@
 
 ## 弱點簡介
 
-之前被稱之為"無效的身份認證"，此類別從第二名下滑，現在包含了與身份識別失效相關的CWEs，如知名的"CWE-297: 與不匹配的服務端進行不適當的憑證確認", "CWE-287: 不適當的認證", "CWE-384: 會話(session)固定攻擊"
+之前被稱之為"無效的身份認證"，此類別從第二名下滑，現在包含了與身份識別失效相關的CWEs，如知名的"CWE-297: Improper Validation of Certificate with Host Mismatch", "CWE-287: Improper Authentication", "CWE-384: Session Fixation"
 
 ## 弱點描述 
 
@@ -87,46 +87,46 @@
 
 ## 對應的 CWEs 清單
 
-CWE-255 認證資訊管理的錯誤
+CWE-255 Credentials Management Errors
 
-CWE-259 密碼寫死
+CWE-259 Use of Hard-coded Password
 
-CWE-287 不適當的認證
+CWE-287 Improper Authentication
 
-CWE-288 使用備用的路徑或管道繞過認證
+CWE-288 Authentication Bypass Using an Alternate Path or Channel
 
-CWE-290 以欺騙來繞過認證
+CWE-290 Authentication Bypass by Spoofing
 
-CWE-294 以攔截重送來繞過認證
+CWE-294 Authentication Bypass by Capture-replay
 
-CWE-295 不適當的憑證確認
+CWE-295 Improper Certificate Validation
 
-CWE-297 與不匹配的服務端進行不適當的憑證確認
+CWE-297 Improper Validation of Certificate with Host Mismatch
 
-CWE-300 通道可被非端點存取
+CWE-300 Channel Accessible by Non-Endpoint
 
-CWE-302 驗證被假設不變的資料繞過
+CWE-302 Authentication Bypass by Assumed-Immutable Data
 
-CWE-304 於認證中缺少關鍵的步驟
+CWE-304 Missing Critical Step in Authentication
 
-CWE-306 關鍵的功能中缺少認證
+CWE-306 Missing Authentication for Critical Function
 
-CWE-307 過度認證的嘗試沒有被適當的限制
+CWE-307 Improper Restriction of Excessive Authentication Attempts
 
-CWE-346 原始資料確認上的錯誤
+CWE-346 Origin Validation Error
 
-CWE-384 會話(Session)固定
+CWE-384 Session Fixation
 
-CWE-521 脆弱密碼的要求
+CWE-521 Weak Password Requirements
 
-CWE-613 不適當的會話超時
+CWE-613 Insufficient Session Expiration
 
-CWE-620 沒有被驗證的密碼變更
+CWE-620 Unverified Password Change
 
-CWE-640 忘記密碼的脆弱密碼回復機制
+CWE-640 Weak Password Recovery Mechanism for Forgotten Password
 
-CWE-798 認證資訊寫死
+CWE-798 Use of Hard-coded Credentials
 
-CWE-940 不當的通訊通道來源驗證
+CWE-940 Improper Verification of Source of a Communication Channel
 
-CWE-1216 鎖定機制相關的錯誤
+CWE-1216 Lockout Mechanism Errors
